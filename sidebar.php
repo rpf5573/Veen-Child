@@ -38,7 +38,7 @@ if( epcl_get_option('enable_mobile_sidebar') == true && epcl_get_option('mobile_
 ?>
 <?php if( is_active_sidebar( $sidebar_name ) ): ?>
     <!-- start: #sidebar -->
-    <aside id="sidebar" class="grid-20 <?php echo esc_attr($sidebar_class); ?>">
+    <aside id="sidebar" class="grid-25 <?php echo esc_attr($sidebar_class); ?>">
         <div class="sidebar-wrapper default-sidebar"><?php dynamic_sidebar($sidebar_name); ?></div>
         <?php if( $mobile_sidebar ): ?>
             <div class="sidebar-wrapper mobile-sidebar hide-on-desktop"><?php dynamic_sidebar( $epcl_theme['mobile_sidebar'] ); ?></div>

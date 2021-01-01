@@ -91,7 +91,7 @@
             <div class="epcl-page-wrapper">
 
                 <!-- start: .content -->
-                <div class="left-content grid-80 np-mobile">
+                <div class="left-content grid-75 np-mobile">
 
                     <article <?php post_class('main-article'); ?>>
 

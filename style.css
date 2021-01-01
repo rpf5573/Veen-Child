@@ -9,12 +9,26 @@ Template: veen
 */
 
 /* Add your custom code just below */
+
+
+body.single .grid-container {
+  max-width: 1400px;
+}
+
+
+div.ez-toc-widget-container {
+  border-left: 1px solid #dadde1;
+  padding-left: 20px;
+}
+div.ez-toc-widget-container ul.ez-toc-list {
+  padding: 0;
+}
 .ez-toc-widget-container ul.ez-toc-list li::before {
   display: none;
 }
+.ez-toc-widget-container li  > a {
+  color: #606770;
+}
 .ez-toc-widget-container li.active > a {
   color: #ff486a;
-}
-body.single .grid-container {
-  max-width: 1400px;
 }
