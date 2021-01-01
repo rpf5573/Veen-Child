@@ -24,11 +24,15 @@ div.ez-toc-widget-container ul.ez-toc-list {
   padding: 0;
 }
 .ez-toc-widget-container ul.ez-toc-list li::before {
-  display: none;
+  display: none !important;
 }
-.ez-toc-widget-container li  > a {
+.ez-toc-widget-container li > a {
+  font-size: 16px;
   color: #606770;
 }
 .ez-toc-widget-container li.active > a {
   color: #ff486a;
+}
+.ez-toc-widget-container ul.ez-toc-list li a::before {
+  display: none !important;
 }
