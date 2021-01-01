@@ -9,8 +9,11 @@ Template: veen
 */
 
 /* Add your custom code just below */
-.ez-toc-widget-container li {
-  /* font-size: 14px; */
+.ez-toc-widget-container ul.ez-toc-list li::before {
+  display: none;
+}
+.ez-toc-widget-container li.active > a {
+  color: #ff486a;
 }
 body.single .grid-container {
   max-width: 1400px;
