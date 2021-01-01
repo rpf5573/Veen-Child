@@ -9,3 +9,9 @@ Template: veen
 */
 
 /* Add your custom code just below */
+.ez-toc-widget-container li {
+  font-size: 14px;
+}
+body.single .grid-container {
+  max-width: 1400px;
+}
