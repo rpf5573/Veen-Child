@@ -13,3 +13,9 @@ add_action( 'after_setup_theme', 'epcl_child_theme_slug_setup' );
 
 /* You can add your custom functions just below */
 
+function epcl_dequeue_code_block_css() {
+    wp_dequeue_style('hcb-style');
+    wp_dequeue_style('hcb-coloring');
+    wp_dequeue_style('hcb-style');
+}
+add_action('wp_enqueue_scripts', 'epcl_dequeue_code_block_css', 30);
